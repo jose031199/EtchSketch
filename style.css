@@ -15,6 +15,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 button{
@@ -24,6 +25,12 @@ button{
     background-color: var(--primaryColor);
     color: var(--secondayColor);
     font-size: var(--smFont);
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: var(--secondayColor);
+    color:var(--primaryColor);
 }
 
 .header{
@@ -42,6 +49,7 @@ button{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    height: 85vh;
 }
 
 .sketch-options ul{
@@ -49,6 +57,14 @@ button{
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+footer{
+    text-align: center;
+    background-color: var(--primaryColor);
+    color: var(--secondayColor);
+    font-size: var(--mdFont);
+    height: 60px;
 }
 
 
