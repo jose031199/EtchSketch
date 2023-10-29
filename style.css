@@ -1,0 +1,52 @@
+:root{
+
+    --primaryColor:black;
+    --secondayColor:white;
+    --redColor:red;
+    --greenColor:green;
+    --blueColor:blue;
+
+    --smFont:16px;
+    --mdFont:35px;
+    --bgFont:55px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    background-color: var(--primaryColor);
+    color: var(--secondayColor);
+    font-size: var(--smFont);
+}
+
+.header{
+    background-color: black;
+    color: var(--secondayColor);
+    text-align: center;
+    min-height: 85px;
+}
+
+.header h1{
+    padding-top: 10px;
+}
+
+.sketch{
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sketch-options ul{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
