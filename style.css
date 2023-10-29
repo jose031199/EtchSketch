@@ -50,3 +50,28 @@ button{
     flex-direction: column;
     gap: 10px;
 }
+
+
+/*Styling for each square-color according with rgb*/
+.square-red{
+    background-color: red;
+}
+
+.square-red-dark{
+    background-color: rgb(101, 7, 7);
+}
+
+.square-blue{
+    background-color: blue;
+}
+
+.square-blue-dark{
+    background-color: rgb(9, 9, 84);
+}
+.square-green{
+    background-color: green;
+}
+
+.square-green-dark{
+    background-color: rgb(3, 86, 3);
+}
